@@ -38,3 +38,32 @@ if __name__ == '__main__':
 
 # input : [1,2,3,4]
 # output : 1-> 2-> 3-> 4-> None
+
+# Clear Explanation on this Code
+# Node Class:
+
+# This class represents a single node in the linked list.
+# Each node has two attributes: data to store the value of the node and next to store a reference to the next node in the linked list.
+
+
+
+# LinkedList Class:
+
+# This class represents the linked list itself.
+# It has an attribute head which points to the first node in the linked list.
+# It provides methods to manipulate the linked list, such as append to add elements to the end of the list and print_list to print the elements of the list.
+
+
+# array_to_linked_list Function:
+
+# This function takes an array (arr) as input and converts it into a linked list.
+# It initializes an empty linked list (linked_list).
+# It iterates over each element in the array and appends it to the linked list using the append method of the LinkedList class.
+# Finally, it returns the converted linked list.
+
+
+# Main Block:
+
+# In the main block, the user is prompted to input an array.
+# The array_to_linked_list function is called with the input array, and the resulting linked list is stored in the variable linked_list.
+# Then, the print_list method of the LinkedList class is called to print the elements of the converted linked list.
