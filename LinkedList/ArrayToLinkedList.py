@@ -31,7 +31,10 @@ def array_to_linked_list(arr):
     for i in arr:
         linked_list.append(i)
     return linked_list
-arr = eval(input("Enter the Array : "))
-linked_list = array_to_linked_list(arr) 
-linked_list.print_list()
+if __name__ == '__main__':
+    arr = eval(input("Enter the Array : "))
+    linked_list = array_to_linked_list(arr) 
+    linked_list.print_list()
 
+# input : [1,2,3,4]
+# output : 1-> 2-> 3-> 4-> None
