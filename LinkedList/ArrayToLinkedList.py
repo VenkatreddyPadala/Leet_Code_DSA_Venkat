@@ -34,4 +34,5 @@ def array_to_linked_list(arr):
 arr = eval(input("Enter the Array : "))
 linked_list = array_to_linked_list(arr) 
 linked_list.print_list()
-
+# Input = Enter the Array : [1,2,3,4,5,6] 
+# Output = 1->2->3->4->5->6->None
